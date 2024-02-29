@@ -60,7 +60,7 @@ then `ffmpeg` and `ffmpeg-python` added to the deps
 
 1. Whisper Speech to Text
 
-- Result: `So, is the Christian Bible in less than 50 words? [was supposed to be 'Summarise the Christian Bible in less than 50 words'`
+- Result: `speech output goes here`
 - Time taken: `STT finished in 0.0471 minutes`
 
 ## thoughts thus far / todo list:
