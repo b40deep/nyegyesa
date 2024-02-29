@@ -1,0 +1,23 @@
+transformers
+gradio
+sentencepiece
+accelerate
+
+# needed for phi
+# einops
+
+# for bark
+# scipy
+
+# for whisper
+ffmpeg
+ffmpeg-python
+
+# older version for stability
+-f https://download.pytorch.org/whl/cu118
+torch 
+torchvision 
+torchaudio
+
+# for sample audio
+datasets
