@@ -21,8 +21,8 @@ voice_preset = None
 def loadSTT():
     print('loading STT works')
     global whisper_model
-    whisper_model = pipeline("automatic-speech-recognition", model="openai/whisper-base", language='en')
-
+    whisper_model = pipeline("automatic-speech-recognition", model="openai/whisper-base")
+# , language='en'
 
 
 

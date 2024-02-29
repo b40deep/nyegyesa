@@ -52,15 +52,13 @@ from https://pytorch.org/get-started/previous-versions/
 https://www.wikihow.com/Install-FFmpeg-on-Windows to download and install
 then `ffmpeg` and `ffmpeg-python` added to the deps
 
-## tracking the model tests:
+## thoughts / troubles / todos:
 
--
+- ✅Finished setting up Whisper STT
+- Whisper that I used seems to be old. I'm getting a `ERROR:    Exception in ASGI application` that doesn't stop the app from running but is definitely not happy. Other than that, it works fine.
+- Example output:
+  - Result: `STT result: Buenos días, buenos tardes, buenos noches, hola`
+  - Time taken: `STT finished in 0.0136 minutes`
+- \*️⃣Next step is to add keywords like `language='es'` so that whatever I speak is returned as spanish.
 
 ## snapshot of resource usage:
-
-1. Whisper Speech to Text
-
-- Result: `speech output goes here`
-- Time taken: `STT finished in 0.0471 minutes`
-
-## thoughts thus far / todo list:
